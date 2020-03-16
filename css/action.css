@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+/*bird*/
+#bird{
+	animation: birdFly 2s infinite linear;
+	-moz-animation: birdFly 2s infinite linear;
+	-webkit-animation: birdFly 2s infinite linear;
+}
+@keyframes birdFly
+{
+0%   {top:453px;}
+50%  {top:440px;}
+100% {top:453px;}
+}
+@-moz-keyframes birdFly
+{
+0%   {top:453px;}
+50%  {top:440px;}
+100% {top:453px;}
+}
+@-webkit-keyframes birdFly
+{
+0%   {top:453px;}
+50%  {top:440px;}
+100% {top:453px;}
+}
+#smallMomo{
+  animation:SmomoFly 2s infinite linear;
+  -moz-animation:SmomoFly 2s infinite linear;
+  -webkit-animation:SmomoFly 2s infinite linear;
+}
+@keyframes SmomoFly{
+  0%{top:-215px;}
+  50%{top:-208px;}
+  100%{top:-215px;}
+}
+@-moz-keyframes SmomoFly{
+  0%{top:-215px;}
+  50%{top:-208px;}
+  100%{top:-215px;}
+}
+@-webkit-keyframes SmomoFly{
+  0%{top:-215px;}
+  50%{top:-208px;}
+  100%{top:-215px;}
+}
+#momo{
+	animation:momoFly 3s infinite linear;
+	-moz-animation:momoFly 3s infinite linear;
+	-webkit-animation:momoFly 3s infinite linear;
+}
+@keyframes momoFly{
+	0%{top:470px;}
+	50%{top:480px;}
+	100%{top:470px;}
+}
+@-moz-keyframes momoFly{
+	0%{top:470px;}
+	50%{top:480px;}
+	100%{top:470px;}
+}
+@-webkit-keyframes momoFly{
+	0%{top:470px;}
+	50%{top:480px;}
+	100%{top:470px;}
+}
+#line{
+	animation:lineMove 2s infinite linear;
+	-moz-animation:lineMove 2s infinite linear;
+	-webkit-animation:lineMove 2s infinite linear;
+}
+@keyframes lineMove{
+	0%{opacity:1.0;}
+	50%{opacity:0.5;}
+	100%{opacity:1.0;}
+}
+@-moz-keyframes lineMove{
+	0%{opacity:1.0;}
+	50%{opacity:0.5;}
+	100%{opacity:1.0;}
+}
+@-webkit-keyframes lineMove{
+	0%{opacity:1.0;}
+	50%{opacity:0.5;}
+	100%{opacity:1.0;}
+}
+#more{
+	animation:kira 0.8s infinite linear;
+	-moz-animation:kira 0.8s infinite linear;
+	-webkit-animation:kira 0.8s infinite linear;
+	cursor:pointer;
+}
+@keyframes kira{
+	0%{color:#fff;}
+	50%{color:#F2B703;}
+	100%{color:#fff;}
+}
+@-moz-keyframes kira{
+	0%{color:#fff;}
+	50%{color:#F2B703;}
+	100%{color:#fff;}
+}
+@-webkit-keyframes kira{
+	0%{color:#fff;}
+	50%{color:#F2B703;}
+	100%{color:#fff;}
+}

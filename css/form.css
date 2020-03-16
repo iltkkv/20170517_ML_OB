@@ -1,0 +1,12 @@
+
+input[type="button"],input[type="submit"],input[type="reset"] {-webkit-appearance: none;}
+textarea {-webkit-appearance: none;}   
+html,body{
+	width:100%;
+	margin:0px;
+	padding:20px 0;
+}
+.filename{font-size:8px;}
+@media (max-width:768px){
+.btn_01{width:80%;position:absolute;left:5px;}
+}

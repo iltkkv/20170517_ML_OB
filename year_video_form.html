@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>《夢幻龍族Online》可愛回歸！</title>
+    <link rel="Shortcut Icon" type="image/x-icon" href="//upload.gnjoy.com.tw/gnjoy/www/images/fav.ico" />
+    <!-- SweetAlert -->
+    <link rel="stylesheet" href="//upload.gnjoy.com.tw/js/sweetalert/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body id="Form">
+    <div class="formBox">
+        <h5>影片上傳區</h5>
+        <div class="form">
+            <input class="code" type="text" id="gnjoy" placeholder="GNJOY帳號">
+            <input class="code" type="text" id="mlid" placeholder="夢幻龍族Online遊戲帳號">
+            <input class="code" type="text" id="guildName" placeholder="公會名稱">
+            <select name="phoneArea" id="phoneArea">
+                <option value="0">手機區域號碼</option>
+                <option value="886">台灣 Taiwan 886</option>
+                <option value="852">香港 HongKong 852</option>
+                <option value="853">澳門 Macao 853</option>
+            </select>
+            <input class="code" type="text" id="phone" placeholder="手機號碼（僅接受半型數字，請勿輸入特殊符號）">
+            <input class="code" type="text" id="email" placeholder="EMAIL">
+            <label>其他線上遊戲</label>
+            <input class="code" type="text" placeholder="網路影片/直播網址">
+            <label>夢幻龍族Online</label>
+            <input class="code" type="text" placeholder="網路影片/直播網址">
+            <!--  -->
+            <div class="codeBox thin">
+                <div class="img">
+                    <a href="https://www.google.com/intl/zh-TW/policies/terms/" target="_blank" class="terms">條款</a>
+                    <a href="https://www.google.com/intl/zh-TW/policies/privacy/" target="_blank" class="privacy">隱私權</a>
+                </div>
+                <div>
+                    <div class="g-recaptcha gc-reset" data-sitekey="6Ldv9yETAAAAACoWxf98YL_w6qerzlqmR8IksgAL">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="noticeList">
+            <h6>注意事項</h6>
+            <ol>
+                <li>影片部分僅上傳網址，非上傳影片內容</li>
+            </ol>
+        </div>
+        <input type="button" value="確認上傳" class="btn_01"></input>
+    </div>
+    <!--  -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js "></script>
+    <script src="//upload.gnjoy.com.tw/js/setRootFS.min.js"></script>
+    <!-- Google驗證 -->
+    <script src="//www.google.com/recaptcha/api.js" type="text/javascript"></script>
+    <!-- SweetAlert -->
+    <script src="//upload.gnjoy.com.tw/js/sweetalert/sweetalert2.min.js"></script>
+    <script src="//upload.gnjoy.com.tw/js/sweetalert/promise.min.js"></script>
+    <script>
+    $(function() {
+        $(".fake_upload_file").change(function() {
+            var file_path = $(this).val();
+            $(".fake_file_path").val(file_path);
+        });
+    });
+    </script>
+</body>
+
+</html>

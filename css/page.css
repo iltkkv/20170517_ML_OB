@@ -1,0 +1,120 @@
+@charset "utf-8";
+#more{display:none;}
+.yellowColor{color:#f2b703;font-size:1.2em;font-weight:500;}
+.pageTop{background:url(../img/page_top.jpg) no-repeat center top;padding-top:494px;}
+.hide{display:none;}
+.outBox{width:1366px;display:block;height:auto;position:relative;margin:0 auto;}
+.textBox{width:960px;display:block;height:auto;position:relative;margin:50px auto;}
+.YCenter{line-height:35px;}
+#smallMomo{width:187px;height:198px;background:url(../img/momo.png) no-repeat center center;background-size:contain;position:absolute;top:-215px;right:60px;z-index:20;}
+.money{margin-bottom:20px;width:300px;height:auto;}
+.eventContent{background-color:#f2b703;}
+.AlltextBox{width:100%;height:auto;position:relative;margin:0 auto;padding-top:5px;background:url(../img/pageBG.jpg) no-repeat center top;text-align:center;color:#29090e;}
+/*標題活動icon*/
+.eventNO{display:inline-block;width:90px;height:90px;margin:0 30px 40px 0;vertical-align:middle;background-color:#753e46;color:#FFFFFF;line-height:2.4em;box-sizing:border-box;}
+.eventNO span{font-weight:300;}
+.eventNO b{font-size:40px;font-weight:500px;}
+/*標題*/
+.title{display:block;width:1100px;position:relative;margin:50px auto;}
+h2{display:inline-block;width:auto;font-size:60px;font-weight:900;margin:0px;text-align:justify;}
+h2 br{display:none;}
+/*副標說明*/
+h3{display:block;margin:0 auto;font-size:24px;font-weight:600;line-height:1.8em;}
+/*重要資訊*/
+.importantBox{display:block;width:100%;background:#753e46;box-sizing:border-box;padding:50px 0;margin:100px auto 50PX auto;}
+/*步驟*/
+.stepBox{width:100%;margin:-2px auto;padding:30px 50px;box-sizing:border-box;letter-spacing:0.1em;text-align:left;border:2px solid #000;color:#fff;font-size:20px;}
+.stepBox:nth-child(odd){background:#29090e;}
+.stepBox:nth-child(even){background:#753e46;}
+.stepBox b{display:block;width:100%;font-size:30px;font-weight:600;}
+.infoBox,.infoList{font-weight:300;}
+.infoBox{margin-top:30px;padding:15px 15px 0px 50px;border-top:2px dashed #422429;text-indent:-30px;}
+.infoBox::before{content:"●";color:#f2b703;margin-right:10px;}
+.infoList{position:relative;margin:10px auto 10px 5px;}
+.infoList li:first-child{font-size:1.2em;font-weight:500;background:#29090e;}
+.infoList span{background:#29090e;margin-right:10px;}
+/*紅色按鈕*/
+.redBtn{display:inline-block;width:300px;height:60px;line-height:60px;font-size:28px;font-weight:500;color:#e1e1e1;background:#bd0d1a;border:3px solid #780200;border-bottom:8px solid #780200;cursor:pointer;}
+.redBtn{margin-right:20px;}
+.redBtn:hover,.redBtn:active{color:#fff;background:#e3322f;font-size:26px;}
+/*活動資訊*/
+.note{width:1000px;position:relative;margin:0 auto;padding:0 50px 50px 50px;text-align:left;box-sizing:border-box;color:#753e46;}
+.note span{font-weight:800; font-size:48px;color:#29090e;}
+.tip{display:inline-block; background:#753e46;color:#fff;font-weight:100;padding:0 5px;margin:4px 2px;}
+.note li{list-style-type:decimal-leading-zero;margin:10px 0 0 25px;font-weight:500;}
+/*按鈕區域*/
+#link{position:fixed;z-index:200;top:90px;right:0;width:200px;height:744px;background:url(../img/nav_bg.png) no-repeat center top;box-sizing:border-box;padding-top:115px;}
+#gotoTop{text-align:center;cursor:pointer;}
+#gotoTop:hover{color:#f2b703;}
+#link a,.nowPage{display:block;width:160px;height:43px;margin:8px auto;cursor:pointer;}
+#link a img,.nowPage img{width:auto;}
+#link a img,#link a b,.nowPage img,.nowPage b{display:inline-block;height:43px;vertical-align:middle;}
+#link a b,.nowPage b{box-sizing:border-box;position:absolute;width:116px;height:43px;font-size:12px;font-weight:300;padding:5px 5px 5px 10px;/* Permalink - use to edit and share this gradient:http://colorzilla.com/gradient-editor/#29090e+34,664b51+100 */background:#29090e; /* Old browsers */background:-moz-linear-gradient(top, #29090e 34%, #664b51 100%); /* FF3.6-15 */background:-webkit-linear-gradient(top, #29090e 34%,#664b51 100%); /* Chrome10-25,Safari5.1-6 */background:linear-gradient(to bottom, #29090e 34%,#664b51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#29090e', endColorstr='#664b51',GradientType=0 ); /* IE6-9 */}
+#link a:hover,#link a:active{border:1px solid #f2b703;}
+.nowBG{background:#f2b703;}
+.noBG{background:#753e46;}
+.nowLine{border:1px solid #f2b703;}
+#link a,.noLine{border:1px solid #753e46;}
+.inGame{width:600px;margin:50px auto; display:block;}
+
+/*=====mobile_layout===========================*/
+@media (max-width:768px){
+/*側邊按鈕*/
+#link{width:200px;height:100vh;box-sizing:border-box;padding:60px 10px;top:0;right:-200px;background-color:#29090e;background-image:none;border:1px solid #753e46;}
+#link a,.nowPage{width:200px;height:33px; text-align:center;margin:0 auto;border:none;margin-left:-10px;}
+#link a img,#link img,#link br{display:none;}
+#link b,.nowPage b,.YCenter{line-height:36px;}
+#link a b,.nowPage b{position:relative;width:100%;font-size:10px;font-weight:500;white-space:nowrap;padding:0;background:none;}
+.nowLine{background-color:#F2B703;color:#29090F;width:200px;margin-left:-10px;}
+#more{display:block;width:2em;word-break:break-all;position:absolute;top:40%;left:-53px;border:1px solid #753e46;border-right:0px;background-color:#29090e;padding:10px;z-index:300;}
+#gotoTop{display:block;width:40px;height:40px;background:url(../img/btn_top.png) no-repeat center center;background-size:contain;overflow:hidden;text-indent: -999px;opacity:0.9;position:absolute;bottom:10px;left:-50px;}
+i{display:none;}
+#smallMomo{display:none;}
+.pageTop{background:url(../img/mobile_page_bg.jpg) no-repeat center 40px;padding-top:70%;}
+
+/*內文*/
+.outBox{width:100%;}
+.textBox{width:90%;margin:20px auto;}
+
+/*標題活動icon*/
+.eventNO{width:60px;height:60px;line-height:1.5em;margin:0 auto 25px auto;}
+.eventNO span{font-size:12px;}
+.eventNO b{font-size:28px;}
+
+/*標題*/
+.title{width:90%;position:relative;margin:30px auto;}
+h2{width:100%;display:block;font-size:40px;font-weight:900;margin:0px auto;text-align:center;line-height:1.5em;}
+h2 br{display:block;}
+
+/*副標說明*/
+h3{display:block;width:95%;font-size:16px;border-top:1px solid #753e46;border-bottom:1px solid #753e46;padding:20px 0;margin-top:25px;}
+
+/*步驟*/
+.stepBox{width:100%;margin:-2px auto;padding:15px 30px;font-size:16px;}
+.stepBox b{font-size:22px;font-weight:600;white-space:nowrap;text-align:center;}
+.infoBox{margin-top:15px;padding:10px 4px 0px 30px;border-top:2px dashed #422429;text-indent:-27px;}
+.infoList{width:75%;margin:10px auto 10px 60px;padding:0px;}
+.infoList li:first-child{margin-left:-30px;}
+.infoList span{background:#29090e;margin-right:10px;margin-left:-30px;}
+/*活動資訊*/
+.note{width:80%;padding:0 10px 40px 10px;font-size:14px;}
+/*重要資訊*/
+.importantBox{padding:40px 0;margin:50px auto 25px auto;}
+.redBtn{margin-right:0px; margin-bottom:20px;width:85%;}
+.inGame{width:100%;margin:50px auto; display:block;}
+
+}
+@media (max-width:480px){
+h3{font-size:14px;}
+}
+
+/*=====表格============*/
+.giftForm{
+	width:100%;
+	margin:5px auto;
+	position:relative;
+}
+.giftForm th{min-height:40px;font-weight:300;box-sizing:border-box;background-color:rgba(90,90,90,0.5);padding:10px;}
+.giftForm:nth-child(1) th{height:40px;line-height:40px;padding:0px;background:#F2B703;color:#29090F;font-weight:500;text-align:center;}
+.giftName{width:10%;text-align:center;white-space:nowrap;}
+.giftText{width:30%;}
